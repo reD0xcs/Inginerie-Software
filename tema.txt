@@ -1,0 +1,55 @@
+1.
+A- Fals (Produs este o interfață și nu o clasă)
+B- Corect (clasa Carte definește o compoziție de obiecte de tip Capitol, deducem asta din săgeata specificând relația de compoziție)
+C- Fals (Produs este o interfață și nu o clasă)
+D- Corect (clasa Carte implementează interfața Produs)
+E- Fals (clasa Carte definește o compoziție de obiecte de tip Capitol și nu invers)
+
+2.
+A- Fals (Produs este o interfață și nu o clasă)
+B- Fals (Revista este o clasă și nu o interfață)
+C- Corect (clasa Revista conține o colecție de obiecte de tipul clasei Articol)
+D- Corect (Interfața Produs conține o metodă getPret care returnează un float și este publică)
+E- Fals (metoda getPret este publică și nu protejată)
+F- Corect (atat clasa Revista cât și clasa Carte implementează interfața Produs)
+G- Corect (metoda vinde este implementată atât în clasa Carte cât și în clasa Revista)
+
+3.
+B- Fals (lipsește tipul de return)
+F- Fals (lipsește tipul de return)
+
+4.
+C- Fals (atributul string nu este public)
+E- Fals (operația adaugaProiect este publică și nu privată)
+
+5.
+A- Fals (relația dintre Profesor și Materie nu este de moștenire)
+B- Fals (răspunsul corect este C)
+
+6.
+B- Fals (asociere unidirecțională)
+C- Fals (relație de compoziție și nu moștenire)
+D- Fals (relație de compoziție și nu agregare)
+
+7.
+A- Fals (Laborator nu este o subclasă a clasei Materie)
+B- Fals (Materie nu este o subclasă a clasei Laborator)
+C- Fals (Clasa Laborator nu se află într-o relație bidirecțională)
+D- Fals (Clasa Materie nu se află într-o relație bidirecțională)
+E- Fals (la fel)
+
+8.
+Profesor – Materie (agregare) unidirecțională
+Materie – Test (compoziție)
+Materie – Curs (compoziție)
+Materie – Laborator (compoziție)
+
+9.
+A- Fals (Produs este interfață)
+C- Fals (float trebuie să fie înainte de pret)
+F- Fals (nu există metoda pret)
+
+10.
+A- Fals (clasa Angajat nu este abstractă)
+C- Fals (metoda calculPlata nu trebuie implementată în superclasă)
+D- Fals (clasa este abstractă dar nu conține o funcție abstractă necesară)
